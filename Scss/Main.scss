@@ -1,0 +1,48 @@
+:root {
+     --background-color: #008148;
+     --text-color: #000010;
+}
+
+main {
+     background-color: var(--background-color);
+}
+
+.form-inputs {
+     margin-top: 50px;
+}
+
+.text {
+     margin-top: 50px;
+}
+
+.anchor {
+     text-decoration: none;
+     color: #000;
+}
+
+.txt {
+     color: var(--text-color);
+}
+
+#navbar {
+     background-color: var(--background-color) !important;
+}
+
+.navbar-brand {
+     color: var(--text-color) !important;
+     font-weight: bold;
+}
+
+ul.nav li a,
+ul.nav li a:visited {
+     color: var(--text-color) !important;
+}
+
+ul.nav li a:hover,
+ul.nav li a:active {
+     color: var(--text-color) !important;
+}
+
+ul.nav li.active a {
+     color: var(--text-color) !important;
+}
